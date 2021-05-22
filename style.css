@@ -1,0 +1,99 @@
+@font-face {
+  font-family: 'allomancy-steel-alphabet';
+  src:  url('fonts/allomancy-steel-alphabet.eot?x9ebmt');
+  src:  url('fonts/allomancy-steel-alphabet.eot?x9ebmt#iefix') format('embedded-opentype'),
+    url('fonts/allomancy-steel-alphabet.ttf?x9ebmt') format('truetype'),
+    url('fonts/allomancy-steel-alphabet.woff?x9ebmt') format('woff'),
+    url('fonts/allomancy-steel-alphabet.svg?x9ebmt#allomancy-steel-alphabet') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+i {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'allomancy-steel-alphabet' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.asa-256:before {
+  content: "\e900";
+}
+.asa-20:before {
+  content: "\e901";
+}
+.asa-22:before {
+  content: "\e902";
+}
+.asa-21:before {
+  content: "\e903";
+}
+.asa-0:before {
+  content: "\e904";
+}
+.asa-lerasium:before {
+  content: "\e905";
+}
+.asa-atium:before {
+  content: "\e906";
+}
+.asa-malatium:before {
+  content: "\e907";
+}
+.asa-bendalloy:before {
+  content: "\e908";
+}
+.asa-cadmium:before {
+  content: "\e909";
+}
+.asa-electrum:before {
+  content: "\e90a";
+}
+.asa-gold:before {
+  content: "\e90b";
+}
+.asa-nicrosil:before {
+  content: "\e90c";
+}
+.asa-chromium:before {
+  content: "\e90d";
+}
+.asa-aluminum:before {
+  content: "\e90e";
+}
+.asa-duralumin:before {
+  content: "\e90f";
+}
+.asa-bronze:before {
+  content: "\e910";
+}
+.asa-brass:before {
+  content: "\e911";
+}
+.asa-copper:before {
+  content: "\e912";
+}
+.asa-zinc:before {
+  content: "\e913";
+}
+.asa-iron:before {
+  content: "\e914";
+}
+.asa-tin:before {
+  content: "\e915";
+}
+.asa-pewter:before {
+  content: "\e916";
+}
+.asa-steel:before {
+  content: "\e917";
+}

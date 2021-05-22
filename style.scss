@@ -1,0 +1,150 @@
+@import "variables";
+
+@font-face {
+  font-family: '#{$icomoon-font-family}';
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?x9ebmt');
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?x9ebmt#iefix') format('embedded-opentype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?x9ebmt') format('truetype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?x9ebmt') format('woff'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?x9ebmt##{$icomoon-font-family}') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+i {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: '#{$icomoon-font-family}' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.asa-256 {
+  &:before {
+    content: $asa-256; 
+  }
+}
+.asa-20 {
+  &:before {
+    content: $asa-20; 
+  }
+}
+.asa-22 {
+  &:before {
+    content: $asa-22; 
+  }
+}
+.asa-21 {
+  &:before {
+    content: $asa-21; 
+  }
+}
+.asa-0 {
+  &:before {
+    content: $asa-0; 
+  }
+}
+.asa-lerasium {
+  &:before {
+    content: $asa-lerasium; 
+  }
+}
+.asa-atium {
+  &:before {
+    content: $asa-atium; 
+  }
+}
+.asa-malatium {
+  &:before {
+    content: $asa-malatium; 
+  }
+}
+.asa-bendalloy {
+  &:before {
+    content: $asa-bendalloy; 
+  }
+}
+.asa-cadmium {
+  &:before {
+    content: $asa-cadmium; 
+  }
+}
+.asa-electrum {
+  &:before {
+    content: $asa-electrum; 
+  }
+}
+.asa-gold {
+  &:before {
+    content: $asa-gold; 
+  }
+}
+.asa-nicrosil {
+  &:before {
+    content: $asa-nicrosil; 
+  }
+}
+.asa-chromium {
+  &:before {
+    content: $asa-chromium; 
+  }
+}
+.asa-aluminum {
+  &:before {
+    content: $asa-aluminum; 
+  }
+}
+.asa-duralumin {
+  &:before {
+    content: $asa-duralumin; 
+  }
+}
+.asa-bronze {
+  &:before {
+    content: $asa-bronze; 
+  }
+}
+.asa-brass {
+  &:before {
+    content: $asa-brass; 
+  }
+}
+.asa-copper {
+  &:before {
+    content: $asa-copper; 
+  }
+}
+.asa-zinc {
+  &:before {
+    content: $asa-zinc; 
+  }
+}
+.asa-iron {
+  &:before {
+    content: $asa-iron; 
+  }
+}
+.asa-tin {
+  &:before {
+    content: $asa-tin; 
+  }
+}
+.asa-pewter {
+  &:before {
+    content: $asa-pewter; 
+  }
+}
+.asa-steel {
+  &:before {
+    content: $asa-steel; 
+  }
+}
+
